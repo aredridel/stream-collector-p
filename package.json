@@ -1,0 +1,41 @@
+{
+  "name": "stream-collector-p",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "main": "index.js",
+  "eslintConfig": {
+    "parserOptions": {
+      "ecmaVersion": 6
+    },
+    "rules": {
+      "valid-typeof": "error",
+      "no-unused-vars": "error",
+      "no-undef": "error"
+    },
+    "env": {
+      "es6": true,
+      "browser": true,
+      "node": true
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aredridel/stream-collector-p.git"
+  },
+  "author": "Aria Stewart <aredridel@dinhe.net>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aredridel/stream-collector-p/issues"
+  },
+  "homepage": "https://github.com/aredridel/stream-collector-p#readme",
+  "devDependencies": {
+    "tape": "^4.6.3",
+    "through2": "^2.0.3"
+  },
+  "dependencies": {
+    "stream-collector": "^1.0.1"
+  }
+}
